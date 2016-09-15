@@ -1,0 +1,23 @@
+{
+  "name": "css-width-scale-dc",
+  "version": "1.0.0",
+  "description": "Css module of single purpose classes for width scale",
+  "main": "index.js",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.6"
+  },
+  "scripts": {
+    "start": "tachyons src/css-width-scale.css > css/css-width-scale.css && tachyons src/css-width-scale.css --minify > css/css-width-scale.min.css && tachyons src/css-width-scale.css --generate-docs --package=../../package.json > readme.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmarkclements/css-width-scale-dc.git"
+  },
+  "keywords": [],
+  "author": "David Mark Clements",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidmarkclements/css-width-scale-dc/issues"
+  },
+  "homepage": "https://github.com/davidmarkclements/css-width-scale-dc#readme"
+}
